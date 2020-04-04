@@ -1,38 +1,80 @@
-.App {
+body {
+  background-color: grey;
+  font-family: Century Gothic;
+  color: black;
+}
+
+.scroll-links {
+  color: black;
+}
+
+.h1 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  font-size: 80px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.h2 {
+  font-size: 50px;
+  margin-top: 200px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img1 {
+  display: block;
+  width: 300%;
+  margin: auto;
+}
+
+.p {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 40px;
+  text-indent: 60px;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+.portrait-border {
+  width: 30%;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  text-align: right;
+}
+
+.header-border {
+  border-style: dotted;
+  background-color: silver;
+  font-weight: bold;
+}
+
+.img2 {
+  margin-top: 50px;
+}
+
+.white-header {
+  margin-top: 0px;
+  background-color: white;
+  color: black;
+}
+.contact-header{
+  margin-top:100px;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+.icon{
+  margin-left:100px;
+  margin-top:30px;
+  padding-top:15px;
 }
