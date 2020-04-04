@@ -25,14 +25,14 @@ function App() {
               CONTACT
             </h2>
           </a>
+        </div>
         <div class="black-background">
-        <h2 class="about_title"><a name="toabout"></a> ABOUT ME</h2>
+          <h2 class="about_title"><a name="toabout"></a> ABOUT ME</h2>
           <img src="https://i.imgur.com/fcVrks5.jpg?2" alt="BashirPic" class= "portrait-border" align="right" />
             <p class="p col-xs-12 black-background">  
               I'm a pharmacist based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.
             </p>
-          </div>
-        <div>
+        </div>
           <h2 class="project_title"><a name="toprojects"></a>PROJECTS </h2>
 
           <div class="col-xs-12">     
@@ -61,8 +61,6 @@ function App() {
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
             class="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>   
           </div>    
-          </div>
-        </div>
           <h1 class="contact-header"><a name="tocontact"></a>CONTACT ME</h1>
         <h2>Email: b_egeh@hotmail.com</h2>
         <div class="col-xs-12">
