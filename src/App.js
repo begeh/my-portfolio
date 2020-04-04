@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
 
-      <div class="container-fluid">
+      <body class="container-fluid">
 
         <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" class="img-responsive img1" />
         <h1 class="h1"> BASHIR EGEH</h1>
@@ -69,7 +69,7 @@ function App() {
           <a href="https://ca.linkedin.com/in/bashir-egeh-776954129" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA" alt="LinkedIn Link" width="70px" align="left" class="spacing" /></a>
           <h2 class="icon"> LinkedIn</h2>
         </div>
-      </div>
+      </body>
   );
 }
 
