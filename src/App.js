@@ -25,8 +25,11 @@ function App() {
             </h2>
           </a>
         <div class="black-background">
-        <h2 class="h2"><a name="toabout"></a> ABOUT ME</h2>
-            <p class="p col-xs-12 black-background"> <img src="https://i.imgur.com/fcVrks5.jpg?2" alt="BashirPic" class= "portrait-border" align="right" /> I'm a pharmacist based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.</p>
+        <h2 class="about_title"><a name="toabout"></a> ABOUT ME</h2>
+          <img src="https://i.imgur.com/fcVrks5.jpg?2" alt="BashirPic" class= "portrait-border" align="right" />
+            <p class="p col-xs-12 black-background">  
+              I'm a pharmacist based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.
+            </p>
           </div>
         <div>
           <h2 class="h2 white-header"><a name="toprojects"></a>PROJECTS </h2>

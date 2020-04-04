@@ -15,9 +15,9 @@ body {
   color: white;
 }
 
-.h2 {
+.about_title {
   font-size: 50px;
-  margin-top: 200px;
+  margin-top: 50px;
   padding-bottom: 40px;
   text-decoration: underline;
   font-weight: bold;
@@ -42,14 +42,14 @@ body {
   background-color: black;
   color: white;
   font-style: italic;
+  padding: 1em 0 2em 0;
 }
 
 .portrait-border {
-  width: 30%;
+  width: 300px;
   display: block;
   margin: auto;
   border-radius: 100%;
-  text-align: right;
 }
 
 .header-border {
@@ -66,6 +66,7 @@ body {
   margin-top: 0px;
   background-color: white;
   color: black;
+  padding: 1em 0 1em 0;
 }
 .contact-header{
   margin-top:100px;
