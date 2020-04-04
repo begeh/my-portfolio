@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
             </p>
           </div>
         <div>
-          <h2 class="h2 white-header"><a name="toprojects"></a>PROJECTS </h2>
+          <h2 class="project_title"><a name="toprojects"></a>PROJECTS </h2>
 
           <div class="col-xs-12">     
             <a href="https://codepen.io/BEgeh/full/PWJxmo/" target="_blank"><img src="https://i.imgur.com/SQdnJRq.png" 
