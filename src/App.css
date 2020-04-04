@@ -27,7 +27,7 @@ body {
 
 .img1 {
   display: block;
-  width: 300%;
+  width: 100vw;
   margin: auto;
 }
 
