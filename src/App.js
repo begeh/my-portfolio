@@ -54,10 +54,11 @@ function App() {
           <h2 className="project_title"><a name="toprojects"></a>PROJECTS </h2>
 
           <div className="project">
-            <ProjectItem /> 
-            <ProjectItem />  
-            <ProjectItem />  
-            <ProjectItem />
+            {
+              projects.map((project, index)=>(
+                <ProjectItem imageUrl={project.imageUrl} linkUrl={project.linkUrl} />
+              ))
+            }
 
             <a href="https://codepen.io/BEgeh/full/PWJxmo/" target="_blank"><img src="https://i.imgur.com/SQdnJRq.png" 
             className="img2" alt="Photo of Profile project" /></a>

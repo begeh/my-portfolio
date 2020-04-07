@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 
-export default function ProjectItem (){
+export default function ProjectItem (props){
   return(
-    <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
+    <a href={props.linkUrl}><img src={props.imageUrl}
             className="img2" alt="Underconstruction" /></a>
   )
 }
