@@ -67,8 +67,9 @@
   border-radius: 100%;
 }
 
-.img2 {
+.project-item {
   margin-top: 50px;
+  padding: 0 1em 0 1em;
   width:25vw;
   height: 228px; 
 }
