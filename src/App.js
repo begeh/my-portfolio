@@ -48,9 +48,7 @@ function App() {
             <ProjectItem />  
             <ProjectItem />  
             <ProjectItem />
-            <ProjectItem />
-          </div>
-          <div>     
+
             <a href="https://codepen.io/BEgeh/full/PWJxmo/" target="_blank"><img src="https://i.imgur.com/SQdnJRq.png" 
             className="img2" alt="Photo of Profile project" /></a>
 
@@ -62,8 +60,7 @@ function App() {
                 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
             className="img2" alt="Underconstruction" /></a>      
-          </div>
-          <div className="col-xs-12">      
+
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
             className="img2" alt="Underconstruction" /></a>
               
@@ -75,17 +72,18 @@ function App() {
                 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
             className="img2" alt="Underconstruction" /></a>   
-          </div>    
+          </div>
+
           <h1 className="contact-header"><a name="tocontact"></a>CONTACT ME</h1>
-        <h2>Email: b_egeh@hotmail.com</h2>
-        <div className="col-xs-12">
-          <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" /></a>
-          <h2 className="icon"> Facebook</h2>
-        </div>
-          <div className="col-xs-12">
-          <a href="https://ca.linkedin.com/in/bashir-egeh-776954129" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA" alt="LinkedIn Link" width="70px" align="left" className="spacing" /></a>
-          <h2 className="icon"> LinkedIn</h2>
-        </div>
+          <h2>Email: b_egeh@hotmail.com</h2>
+          <div>
+            <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" /></a>
+            <h2 className="icon"> Facebook</h2>
+          </div>
+          <div>
+            <a href="https://ca.linkedin.com/in/bashir-egeh-776954129" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA" alt="LinkedIn Link" width="70px" align="left" className="spacing" /></a>
+            <h2 className="icon"> LinkedIn</h2>
+          </div>
       </body>
   );
 }
