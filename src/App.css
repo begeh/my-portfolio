@@ -12,6 +12,7 @@
 .navbar{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
   background-color: silver;
   padding: 0 5em 0 5em;
 }
@@ -25,9 +26,11 @@
 }
 
 .nav-item{
+  text-align:center;
   font-weight: bold;
   border-style: dotted;
   padding:auto;
+  width: 30vw;
 }
 
 .about_title {
@@ -40,7 +43,7 @@
   font-style: normal;
 }
 
-.img1 {
+.header-image {
   display: block;
   width: 100vw;
   margin: auto;
@@ -67,9 +70,9 @@
   border-radius: 100%;
 }
 
-.project-item {
+.project-item  {
   margin-top: 50px;
-  padding: 0 1em 0 1em;
+  padding: 0 3% 0 3%;
   width:25vw;
   height: 228px; 
 }

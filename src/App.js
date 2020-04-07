@@ -43,7 +43,7 @@ function App() {
 
       <body className="body">
 
-        <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" className="img-responsive img1" />
+        <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" className="img-responsive header-image" />
         <h1 className="name"> BASHIR EGEH</h1>
         <div className="navbar">
           <div>
