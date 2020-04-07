@@ -4,6 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ProjectItem from './components/ProjectItem';
 
+const projects = [
+{
+  imageUrl: "https://i.imgur.com/SQdnJRq.png",
+  linkUrl: "https://codepen.io/BEgeh/full/PWJxmo/"
+},
+{
+  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
+  linkUrl: "#"
+}
+]
 function App() {
   return (
 
