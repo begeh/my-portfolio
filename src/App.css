@@ -1,7 +1,8 @@
-body {
+.body {
   background-color: grey;
   font-family: Century Gothic;
   color: black;
+  width: 100vw;
 }
 
 .scroll-links {
@@ -16,20 +17,17 @@ body {
 }
 
 .name{
-  
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  background-color: black;
 }
 
 .nav-item{
   font-weight: bold;
   border-style: dotted;
   padding:auto;
-}
-
-.h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 80px;
-  color: white;
 }
 
 .about_title {

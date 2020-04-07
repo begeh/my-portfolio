@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
 
-      <body class="container-fluid">
+      <body class="body">
 
         <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" class="img-responsive img1" />
         <h1 class="name"> BASHIR EGEH</h1>
