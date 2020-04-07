@@ -3,6 +3,7 @@
   font-family: Century Gothic;
   color: black;
   width: 100vw;
+  height: 100%;
 }
 
 .scroll-links {
@@ -106,5 +107,6 @@
 .icon{
   margin-left:100px;
   margin-top:30px;
-  padding-top:15px;
+  padding-top:15px; 
+  padding-bottom: 22px;
 }

@@ -11,31 +11,31 @@ const projects = [
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: "#"
+  linkUrl: ""
 }
 ]
 function App() {
