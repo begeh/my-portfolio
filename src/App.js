@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import ProjectItem from './components/ProjectItem';
+
 function App() {
   return (
 
@@ -41,31 +43,38 @@ function App() {
         </div>
           <h2 className="project_title"><a name="toprojects"></a>PROJECTS </h2>
 
-          <div className="col-xs-12">     
+          <div className="project">
+            <ProjectItem /> 
+            <ProjectItem />  
+            <ProjectItem />  
+            <ProjectItem />
+            <ProjectItem />
+          </div>
+          <div>     
             <a href="https://codepen.io/BEgeh/full/PWJxmo/" target="_blank"><img src="https://i.imgur.com/SQdnJRq.png" 
-            className="img2 col-xs-3" width="100%" height="228px" alt="Photo of Profile project" /></a>
+            className="img2" alt="Photo of Profile project" /></a>
 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>
+            className="img2" alt="Underconstruction" /></a>
               
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>
+            className="img2" alt="Underconstruction" /></a>
                 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>      
+            className="img2" alt="Underconstruction" /></a>      
           </div>
           <div className="col-xs-12">      
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>
+            className="img2" alt="Underconstruction" /></a>
               
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>
+            className="img2" alt="Underconstruction" /></a>
                 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>   
+            className="img2" alt="Underconstruction" /></a>   
                 
             <a href="#"><img src="http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg"
-            className="img2 col-xs-3" width="100%" height="228px" alt="Underconstruction" /></a>   
+            className="img2" alt="Underconstruction" /></a>   
           </div>    
           <h1 className="contact-header"><a name="tocontact"></a>CONTACT ME</h1>
         <h2>Email: b_egeh@hotmail.com</h2>
