@@ -8,23 +8,29 @@ function App() {
       <body class="container-fluid">
 
         <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" class="img-responsive img1" />
-        <h1 class="h1"> BASHIR EGEH</h1>
-        <div class="row">
-          <a href="#toabout" class="scroll-links">
-            <h2 class="col-xs-4 text-center header-border">
-              ABOUT
-          </h2>
-          </a>
-          <a href="#toprojects" class="scroll-links">
-            <h2 class="col-xs-4 text-center header-border">
-              PROJECTS
-            </h2>
-          </a>
-          <a href="#tocontact" class="scroll-links">
-            <h2 class="col-xs-4 text-center header-border">
-              CONTACT
-            </h2>
-          </a>
+        <h1 class="name"> BASHIR EGEH</h1>
+        <div class="navbar">
+          <div>
+            <a href="#toabout" class="scroll-links">
+              <h2 class="nav-item">
+                ABOUT
+              </h2>
+            </a>
+          </div>
+          <div>
+            <a href="#toprojects" class="scroll-links">
+              <h2 class="nav-item">
+                PROJECTS
+              </h2>
+            </a>
+          </div>
+          <div>
+            <a href="#tocontact" class="scroll-links">
+              <h2 class="nav-item">
+                CONTACT
+              </h2>
+            </a>
+          </div>
         </div>
         <div class="black-background">
           <h2 class="about_title"><a name="toabout"></a> ABOUT ME</h2>
