@@ -67,6 +67,7 @@
 
 .portrait {
   width: 300px;
+  height: 300px;
   display: block;
   margin: auto;
   border-radius: 100%;
@@ -99,6 +100,10 @@
   padding: 1em 0 1em 0;
 }
 
+.contact{
+  padding: 0 0 2em 2em;
+}
+
 .contact-header{
   margin-top:100px;
   margin-bottom: 30px;
@@ -125,7 +130,7 @@
   }
 
   .summary{
-
+    font-size: 27px;
   }
 }
 
