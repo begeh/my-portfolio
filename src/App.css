@@ -55,6 +55,7 @@
   padding-left: 50px;
   padding-top: 40px;
   text-indent: 60px;
+  padding: 1em 1em 2em 1em;
 }
 
 .black-background {
@@ -64,7 +65,7 @@
   padding: 1em 0 2em 0;
 }
 
-.portrait-border {
+.portrait {
   width: 300px;
   display: block;
   margin: auto;
@@ -113,7 +114,16 @@
 
 @media screen and (max-width: 578px) {
   .nav-item{
-      font-size: 5vw;
+    font-size: 5vw;
+  }
+  
+  .portrait{
+    width: 100vw;
+    margin-bottom: 30px;
+  }
+
+  .summary{
+    
   }
 }
 
