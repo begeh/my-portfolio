@@ -9,7 +9,7 @@ export default function ProjectItem (props){
         <img src={props.imageUrl}
               className="project-item" alt="Underconstruction" />
         <div class="overlay">
-          <div class="text">Hello World</div>
+          <div class="text">{props.title}</div>
         </div>
       </div>
       </a>

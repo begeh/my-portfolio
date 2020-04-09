@@ -6,34 +6,42 @@ import ProjectItem from './components/ProjectItem';
 
 const projects = [
 {
+  title: "Profile Page",
   imageUrl: "https://i.imgur.com/SQdnJRq.png",
   linkUrl: "https://codepen.io/BEgeh/full/PWJxmo/"
 },
 {
+  title: "Interview Scheduler",
   imageUrl: "https://i.imgur.com/CEfPkvA.png",
   linkUrl: "https://github.com/begeh/scheduler"
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 },
 {
+  title: "Under Construction",
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
   linkUrl: ""
 }
@@ -79,7 +87,7 @@ function App() {
         <div className="project">
           {
             projects.map((project, index)=>(
-              <ProjectItem imageUrl={project.imageUrl} linkUrl={project.linkUrl} />
+              <ProjectItem title={project.title} imageUrl={project.imageUrl} linkUrl={project.linkUrl} />
             ))
           }   
         </div>
