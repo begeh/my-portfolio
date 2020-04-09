@@ -130,6 +130,10 @@
     font-size: 5vw;
   }
   
+  .project-item{
+    width:50vw;
+  }
+
   .portrait{
     width: 100vw;
     margin-bottom: 30px;
