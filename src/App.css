@@ -124,7 +124,6 @@
   top: 0;
   bottom: 0;
   margin-top: 50px;
-  padding: auto;
   width:25vw;
   height: 228px; 
   opacity: 0;
@@ -132,13 +131,14 @@
   background-color: black;
 }
 
-.container:hover .overlay {
+.project-container:hover .overlay {
   opacity: 0.8;
 }
 
-.container {
+.project-container {
   position: relative;
-  /* width:25vw; */
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .text {

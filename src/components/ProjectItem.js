@@ -5,7 +5,7 @@ export default function ProjectItem (props){
   return(
   
       <a href={props.linkUrl}>
-        <div class="container">
+        <div class="project-container">
         <img src={props.imageUrl}
               className="project-item" alt="Underconstruction" />
         <div class="overlay">
