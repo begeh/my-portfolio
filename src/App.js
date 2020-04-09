@@ -10,8 +10,8 @@ const projects = [
   linkUrl: "https://codepen.io/BEgeh/full/PWJxmo/"
 },
 {
-  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: ""
+  imageUrl: "https://i.imgur.com/CEfPkvA.png",
+  linkUrl: "https://github.com/begeh/scheduler"
 },
 {
   imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
