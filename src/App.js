@@ -6,9 +6,9 @@ import ProjectItem from './components/ProjectItem';
 
 const projects = [
 {
-  title: "Profile Page",
-  imageUrl: "https://i.imgur.com/SQdnJRq.png",
-  linkUrl: "https://codepen.io/BEgeh/full/PWJxmo/"
+  title: "Level UP",
+  imageUrl: "https://i.imgur.com/FPw0fLx.png",
+  linkUrl: "https://github.com/begeh/level-up"
 },
 {
   title: "Interview Scheduler",
@@ -93,7 +93,7 @@ function App() {
         </div>
         <div className="contact">
           <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
-          <h2>Email: b_egeh@hotmail.com</h2>
+          <h2>Email: <a className="email" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
           <div>
             <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" /></a>
             <h2 className="icon"> Facebook</h2>
