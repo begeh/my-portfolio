@@ -98,6 +98,9 @@
   background-color: white;
   color: black;
   padding: 1em 0 1em 0;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-color: gray;
 }
 
 .contact{
@@ -155,23 +158,25 @@
   text-align: center;
 }
 
+.link{
+  color: black;
+}
+
+@media screen and (max-width: 768px){
+  .project-item{
+    width:50vw;
+  }
+}
+
 @media screen and (max-width: 682px) {
   .contact{
     padding: 0 10vw 2em 10vw;
   }
 }
 
-.link{
-  color: black;
-}
-
 @media screen and (max-width: 578px) {
   .nav-item{
     font-size: 5vw;
-  }
-  
-  .project-item{
-    width:50vw;
   }
 
   .portrait{
@@ -181,6 +186,12 @@
 
   .summary{
     font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .project-item{
+    width: 100vw;
   }
 }
 
