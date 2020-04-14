@@ -31,9 +31,9 @@ const projects = [
   linkUrl: "https://github.com/begeh/tinyapp"
 },
 {
-  title: "Under Construction",
-  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: ""
+  title: "Random Kanye Quote Generator",
+  imageUrl: "https://i.imgur.com/wjc1s4N.png?1",
+  linkUrl: "https://codepen.io/BEgeh/full/evOJyw"
 },
 {
   title: "Under Construction",
