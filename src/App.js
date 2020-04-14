@@ -92,7 +92,7 @@ function App() {
           }   
         </div>
         <div className="contact">
-          <h1 className="contact-header"><a name="tocontact"></a>CONTACT ME</h1>
+          <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
           <h2>Email: b_egeh@hotmail.com</h2>
           <div>
             <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" /></a>
