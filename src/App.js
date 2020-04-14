@@ -7,28 +7,28 @@ import ProjectItem from './components/ProjectItem';
 const projects = [
 {
   title: "Level UP",
-  imageUrl: "https://i.imgur.com/FPw0fLx.png",
+  imageUrl: "https://i.imgur.com/FPw0fLx.png?1",
   linkUrl: "https://github.com/begeh/level-up"
 },
 {
   title: "Interview Scheduler",
-  imageUrl: "https://i.imgur.com/CEfPkvA.png",
+  imageUrl: "https://i.imgur.com/CEfPkvA.png?1",
   linkUrl: "https://github.com/begeh/scheduler"
 },
 {
   title: "GAMEBOARD",
-  imageUrl: "https://i.imgur.com/2H7tdGe.png",
+  imageUrl: "https://i.imgur.com/2H7tdGe.png?1",
   linkUrl: "https://github.com/begeh/multi-user-card-games"
 },
 {
-  title: "Under Construction",
-  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: ""
+  title: "Tweeter",
+  imageUrl: "https://i.imgur.com/Sx44fWS.png?1",
+  linkUrl: "https://github.com/begeh/tweeter"
 },
 {
-  title: "Under Construction",
-  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: ""
+  title: "Tiny App",
+  imageUrl: "https://i.imgur.com/wTOwkUt.png?1",
+  linkUrl: "https://github.com/begeh/tinyapp"
 },
 {
   title: "Under Construction",
