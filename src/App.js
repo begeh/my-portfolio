@@ -80,7 +80,7 @@ function App() {
           <h2 className="about_title"><a name="toabout"></a> ABOUT ME</h2>
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQFgY9GdNy6D-w/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=9rkxhSAO0Oti0OCFyEbH_2kmGQQvSxlc1ozICu1Dz6g" alt="BashirPic" className= "portrait" align="right" />
             <p className="summary">  
-              I'm a pharmacist based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.
+              I'm a pharmacist-turned full-stack web developer based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming and web development. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.
             </p>
         </div>
         <h2 className="project_title"><a name="toprojects"></a>PROJECTS </h2>
