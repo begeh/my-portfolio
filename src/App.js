@@ -16,9 +16,9 @@ const projects = [
   linkUrl: "https://github.com/begeh/scheduler"
 },
 {
-  title: "Under Construction",
-  imageUrl: "http://www.clipartkid.com/images/254/website-currently-under-construction-APcYla-clipart.jpg",
-  linkUrl: ""
+  title: "GAMEBOARD",
+  imageUrl: "https://i.imgur.com/2H7tdGe.png",
+  linkUrl: "https://github.com/begeh/multi-user-card-games"
 },
 {
   title: "Under Construction",
@@ -93,18 +93,18 @@ function App() {
         </div>
         <div className="contact">
           <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
-          <h2>Email: <a className="email" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
+          <h2>Email: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
           <div>
-            <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" /></a>
-            <h2 className="icon"> Facebook</h2>
+            <a href="https://www.facebook.com/bashirabdi.egeh" target="_blank" className="link"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg" alt="Facebook Link" width="70px" align="left" className="spacing" />
+            <h2 className="icon"> Facebook</h2></a>
           </div>
           <div>
-            <a href="https://ca.linkedin.com/in/bashir-egeh-776954129" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA" alt="LinkedIn Link" width="70px" align="left" className="spacing" /></a>
-            <h2 className="icon"> LinkedIn</h2>
+            <a href="https://ca.linkedin.com/in/bashir-egeh-776954129" target="_blank" className="link"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA" alt="LinkedIn Link" width="70px" align="left" className="spacing" />
+            <h2 className="icon"> LinkedIn</h2></a>
           </div>
           <div>
-            <a href="https://github.com/begeh" target="_blank"><img src="https://ctl.s6img.com/society6/img/y-xZ_syD7LhIJOGtpdTU08ra6Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8e29a2e79387449caa28090d71f489e3/~~/github-logo-prints.jpg" alt="Github Link" width="70px" align="left" className="spacing" /></a>
-            <h2 className="icon"> GitHub (begeh)</h2>
+            <a href="https://github.com/begeh" target="_blank" className="link"><img src="https://ctl.s6img.com/society6/img/y-xZ_syD7LhIJOGtpdTU08ra6Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8e29a2e79387449caa28090d71f489e3/~~/github-logo-prints.jpg" alt="Github Link" width="70px" align="left" className="spacing" />
+            <h2 className="icon"> GitHub (begeh)</h2></a>
           </div>
         </div>
       </body>
