@@ -168,6 +168,9 @@
   .project-item{
     width:50vw;
   }
+  .overlay{
+    width: 49vw;
+  }
 }
 
 @media screen and (max-width: 682px) {
@@ -194,6 +197,10 @@
 @media screen and (max-width: 460px) {
   .project-item{
     width: 100vw;
+  }
+
+  .overlay{
+    width: 98vw;
   }
 }
 
