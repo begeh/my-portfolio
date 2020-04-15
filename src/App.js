@@ -32,7 +32,7 @@ const projects = [
 },
 {
   title: "Random Kanye Quote Generator",
-  imageUrl: "https://i.imgur.com/wjc1s4N.png?1",
+  imageUrl: "https://i.imgur.com/LjrYqdR.png",
   linkUrl: "https://codepen.io/BEgeh/full/evOJyw"
 },
 {
