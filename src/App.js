@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectItem from './components/ProjectItem';
 import Contact from './components/Contact';
 
+import connections from './data/connections.json';
+
 const projects = [
 {
   title: "Level UP",
@@ -48,26 +50,6 @@ const projects = [
 }
 ]
 
-const connections = [
-  {
-    title: "Facebook",
-    imageUrl: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDvg36emnVR8gQKmtDb-jQOl1fkDTpSjdOpt9oEpGh7TX_wILLXhz3xg",
-    linkUrl: "https://www.facebook.com/bashirabdi.egeh",
-    alt: "Facbebook Link"
-  },
-  {
-    title: "LinkedIn",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUQ-8JWaklA2oYy8tMvU-IX0fEymeq4W2laB1xjvuWYVwIV_dKCl6wA",
-    linkUrl: "https://ca.linkedin.com/in/bashir-egeh-776954129",
-    alt: "LinkedIn Link"
-  },
-  {
-    title: "GitHub (begeh)",
-    imageUrl: "https://ctl.s6img.com/society6/img/y-xZ_syD7LhIJOGtpdTU08ra6Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8e29a2e79387449caa28090d71f489e3/~~/github-logo-prints.jpg",
-    linkUrl: "https://github.com/begeh",
-    alt: "Github Link"
-  }
-]
 function App() {
   return (
 
@@ -102,7 +84,7 @@ function App() {
           <h2 className="about_title"><a name="toabout"></a> ABOUT ME</h2>
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQFgY9GdNy6D-w/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=9rkxhSAO0Oti0OCFyEbH_2kmGQQvSxlc1ozICu1Dz6g" alt="BashirPic" className= "portrait" align="right" />
             <p className="summary">  
-              I'm a pharmacist-turned full-stack web developer based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming and web development. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to pursue a career in video game development and contribute to a medium that has had such a profound influence on my life.
+              I'm a pharmacist-turned full-stack web developer based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming and web development. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to be involved in video game development and contribute to a medium that has had such a profound influence on my life.
             </p>
         </div>
         <h2 className="project_title"><a name="toprojects"></a>PROJECTS </h2>
