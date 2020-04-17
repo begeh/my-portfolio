@@ -104,7 +104,9 @@
 }
 
 .contact{
-  padding: 0 25vw 2em 35vw;
+  margin: 0 35vw 0 35vw;
+  padding-left: 2em;
+  padding-top:0;
 }
 
 .contact-header{
@@ -176,6 +178,7 @@
 @media screen and (max-width: 682px) {
   .contact{
     padding: 0 10vw 2em 10vw;
+    margin: 0;
   }
 }
 
@@ -190,7 +193,7 @@
   }
 
   .summary{
-    font-size: 27px;
+    font-size: 20px;
   }
 }
 
