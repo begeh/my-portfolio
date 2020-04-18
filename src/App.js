@@ -55,7 +55,7 @@ function App() {
         </div>
         <div className="contact">
           <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
-          <h2>Email: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
+          <h2><u>Email</u>: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
           {
             connections.map((connection, index) =>(
               <Contact 
