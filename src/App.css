@@ -190,7 +190,18 @@
   /* margin-bottom: 20vh; */
 }
 
+@media screen and (max-width: 1024px){
+  .resume{
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+}
+
 @media screen and (max-width: 768px){
+  .resume{
+    margin-top: 30vh;
+  }
+
   .project-item{
     width:50vw;
   }
