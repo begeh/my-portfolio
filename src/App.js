@@ -69,7 +69,9 @@ function App() {
                 ))
               }
           </div>
-          <button className="btn btn-primary resume">Download Resumé</button>
+          <div>
+            <button className="btn btn-primary resume">Download Resumé</button>
+          </div>
         </div>
       </body>
   );
