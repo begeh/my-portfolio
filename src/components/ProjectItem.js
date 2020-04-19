@@ -6,12 +6,12 @@ export default function ProjectItem (props){
   
       <a href={props.linkUrl}>
         <div className="project-container">
-        <img src={props.imageUrl}
-              className="project-item" alt="Underconstruction" />
-        <div className="overlay">
-          <div className="text">{props.title}</div>
+          <img src={props.imageUrl}
+                className="project-item" alt="Underconstruction" />
+          <div className="overlay">
+            <div className="text">{props.title}</div>
+          </div>
         </div>
-      </div>
       </a>
       
   )

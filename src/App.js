@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-      <body className="body">
+      <div className="body">
 
         <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" className="img-responsive header-image" />
         <h1 className="name"> BASHIR EGEH</h1>
@@ -50,7 +50,7 @@ function App() {
         <div className="project">
           {
             projects.map((project, index)=>(
-              <ProjectItem title={project.title} imageUrl={project.imageUrl} linkUrl={project.linkUrl} />
+              <ProjectItem key={index} title={project.title} imageUrl={project.imageUrl} linkUrl={project.linkUrl} />
             ))
           }   
         </div>
@@ -80,7 +80,7 @@ function App() {
             </a>
           </div>
         </div>
-      </body>
+      </div>
   );
 }
 
