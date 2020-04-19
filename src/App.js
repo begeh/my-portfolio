@@ -38,7 +38,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="black-background">
+        <div className="about-me">
           <h2 className="about_title"><a name="toabout"></a> ABOUT ME</h2>
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQFgY9GdNy6D-w/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=9rkxhSAO0Oti0OCFyEbH_2kmGQQvSxlc1ozICu1Dz6g" alt="BashirPic" className= "portrait" align="right" />
             <p className="summary">  

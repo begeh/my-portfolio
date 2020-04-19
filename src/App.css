@@ -61,7 +61,7 @@
   padding: 1em 1em 2em 1em;
 }
 
-.black-background {
+.about-me {
   background-color: black;
   color: white;
   font-style: italic;
@@ -80,6 +80,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  background: linear-gradient(white,black);
 }
 
 .project-container {
@@ -90,17 +91,16 @@
 
 .project_title {
   font-size: 50px;
-  margin-top: 50px;
   padding-bottom: 40px;
   text-decoration: underline;
   font-weight: bold;
   text-align: center;
   font-style: normal;
   margin-top: 0px;
+  margin-bottom: 0;
   background-color: white;
   color: black;
   padding: 1em 0 1em 0;
-  border-bottom-style: solid;
   border-top-style: solid;
   border-top-color: gray;
 }
@@ -137,7 +137,6 @@
 .contact{
   padding-left: 2em;
   padding-top:0;
-  border-style: solid;
 }
 
 .contact-header{
@@ -148,11 +147,9 @@
 }
 
 .footer{
-  border-style: solid;
   display: flex;
   justify-content: space-between;
   padding-bottom: 1em;
-  margin-top: 50px;
   background-color: black;
   color: white;
 }
