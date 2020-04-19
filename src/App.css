@@ -79,8 +79,24 @@
 .project-item  {
   margin-top: 50px;
   padding: 0 3% 0 3%;
-  width:25vw;
+  width:33vw;
+  height: 228px;
+}
+
+.overlay {
+  border: solid;
+  border-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 1%;
+  width:31.5vw;
   height: 228px; 
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
 }
 
 .project{
@@ -130,22 +146,6 @@
   padding-top:15px; 
   padding-bottom: 22px;
   margin-bottom: 0;
-}
-
-.overlay {
-  border: solid;
-  border-color: white;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin-top: 50px;
-  margin-left: 1%;
-  margin-right: 1%;
-  width:24.5vw;
-  height: 228px; 
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
 }
 
 .project-container:hover .overlay {
@@ -210,6 +210,10 @@
 @media screen and (max-width: 460px) {
   .project-item{
     width: 100vw;
+  }
+
+  .project-container{
+    margin-left:0;
   }
 
   .overlay{
