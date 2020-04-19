@@ -76,6 +76,35 @@
   border-radius: 100%;
 }
 
+.project{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.project_title {
+  font-size: 50px;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
+  margin-top: 0px;
+  background-color: white;
+  color: black;
+  padding: 1em 0 1em 0;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-color: gray;
+}
+
 .project-item  {
   margin-top: 50px;
   padding: 0 3% 0 3%;
@@ -99,27 +128,8 @@
   background-color: black;
 }
 
-.project{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.project_title {
-  font-size: 50px;
-  margin-top: 50px;
-  padding-bottom: 40px;
-  text-decoration: underline;
-  font-weight: bold;
-  text-align: center;
-  font-style: normal;
-  margin-top: 0px;
-  background-color: white;
-  color: black;
-  padding: 1em 0 1em 0;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  border-top-color: gray;
+.project-container:hover .overlay {
+  opacity: 0.8;
 }
 
 .contact{
@@ -138,6 +148,11 @@
 .footer{
   border-style: solid;
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
 }
 
 .icon{
@@ -146,16 +161,6 @@
   padding-top:15px; 
   padding-bottom: 22px;
   margin-bottom: 0;
-}
-
-.project-container:hover .overlay {
-  opacity: 0.8;
-}
-
-.project-container {
-  position: relative;
-  margin-left: 1%;
-  margin-right: 1%;
 }
 
 .text {
@@ -171,7 +176,15 @@
 }
 
 .link{
-  color: black;
+  color: white;
+}
+
+.resume{
+  height: 15vh;
+  width: 30vw;
+  margin-left: 18.5vw;
+  margin-right: 18.5vw;
+  margin-top: 25vh;
 }
 
 @media screen and (max-width: 768px){
