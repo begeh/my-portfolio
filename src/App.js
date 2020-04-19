@@ -9,6 +9,7 @@ import connections from './data/connections.json';
 import projects from './data/projects.json';
 
 function App() {
+
   return (
 
       <body className="body">
