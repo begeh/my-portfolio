@@ -69,8 +69,11 @@ function App() {
                 ))
               }
           </div>
-          <div>
-            <button className="btn btn-primary resume"><img src="https://www.stickpng.com/assets/images/586ac16ab6fc1117b60b2762.png" alt="Upload" className="upload"/>Download Resumé</button>
+          <div className='button-container'>
+            <button className="resume-btn">
+              <img src="https://lh3.googleusercontent.com/proxy/JXZR-Fs3-CZ2PZ-sn8sZ2LCHxcrQAbJDf68zS3WjjN8GB6KiAW8gSZfS-PR3BcSlGkUkBw1XFgW5FfcYlWF5UbO0O8gNYRiha23PhmtTaR7CPY3g5xlOTC8LtqdsSk47xr0Z5qwbXOaaNms4wxGpBKZs9LQQmXbK79M" alt="Upload" className="download"/>
+              <p>Download Resumé</p>
+            </button>
           </div>
         </div>
       </body>
