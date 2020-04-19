@@ -178,8 +178,11 @@
   .project-item{
     width:50vw;
   }
+  .project-container{
+    margin-left:0;
+  }
   .overlay{
-    width: 49vw;
+    width: 48vw;
   }
 }
 
