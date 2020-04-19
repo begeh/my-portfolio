@@ -208,6 +208,12 @@
 }
 
 @media screen and (max-width: 460px) {
+  .portrait{
+    width: 96vw;
+    margin-right: 2vw;
+    height: 55vh;
+  }
+
   .project-item{
     width: 100vw;
   }
@@ -219,6 +225,12 @@
   .overlay{
     width: 96vw;
     margin-left: 2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .portrait{
+    height: 40vh;
   }
 }
 
