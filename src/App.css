@@ -214,6 +214,13 @@
 }
 
 @media screen and (max-width: 682px) {
+  .footer{
+    flex-direction: column;
+  }
+  .resume{
+    margin:2vh 10vw 2vh 10vw;
+    width: 80vw;
+  }
   .contact h1{
     font-size: 10vw;
   }
