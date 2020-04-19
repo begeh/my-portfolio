@@ -70,7 +70,7 @@ function App() {
               }
           </div>
           <div>
-            <button className="btn btn-primary resume">Download Resumé</button>
+            <button className="btn btn-primary resume"><img src="https://www.stickpng.com/assets/images/586ac16ab6fc1117b60b2762.png" alt="Upload" className="upload"/>Download Resumé</button>
           </div>
         </div>
       </body>

@@ -116,7 +116,7 @@
 .overlay {
   border: solid;
   border-color: white;
-  border-radius: 10%;
+  border-radius: 8.5%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -188,6 +188,11 @@
   margin-right: 18.5vw;
   margin-top: 25vh;
   /* margin-bottom: 20vh; */
+}
+
+.upload{
+  width: 6vw;
+  height: 6vw;
 }
 
 @media screen and (max-width: 1024px){
