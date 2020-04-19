@@ -70,10 +70,13 @@ function App() {
               }
           </div>
           <div className='button-container'>
+          <a href="https://drive.google.com/file/d/1qj6HMYkNVumG-hJ9OvRsUn1UrzioAloO/view?usp=sharing">
             <button className="resume-btn">
-              <img src="https://lh3.googleusercontent.com/proxy/JXZR-Fs3-CZ2PZ-sn8sZ2LCHxcrQAbJDf68zS3WjjN8GB6KiAW8gSZfS-PR3BcSlGkUkBw1XFgW5FfcYlWF5UbO0O8gNYRiha23PhmtTaR7CPY3g5xlOTC8LtqdsSk47xr0Z5qwbXOaaNms4wxGpBKZs9LQQmXbK79M" alt="Upload" className="download"/>
-              <p>Download Resumé</p>
+                <img src="https://lh3.googleusercontent.com/proxy/JXZR-Fs3-CZ2PZ-sn8sZ2LCHxcrQAbJDf68zS3WjjN8GB6KiAW8gSZfS-PR3BcSlGkUkBw1XFgW5FfcYlWF5UbO0O8gNYRiha23PhmtTaR7CPY3g5xlOTC8LtqdsSk47xr0Z5qwbXOaaNms4wxGpBKZs9LQQmXbK79M" alt="Upload" className="download"/>
+                <p>Download Resumé</p>
+              
             </button>
+            </a>
           </div>
         </div>
       </body>
