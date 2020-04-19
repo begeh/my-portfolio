@@ -53,20 +53,22 @@ function App() {
             ))
           }   
         </div>
+        <div className="footer">
         <div className="contact">
-          <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
-          <h2><u>Email</u>: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
-          {
-            connections.map((connection, index) =>(
-              <Contact 
-              key={index}
-              title={connection.title}
-              imageUrl={connection.imageUrl}
-              linkUrl={connection.linkUrl}
-              alt={connection.alt}
-              />
-            ))
-          }
+            <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
+            <h2><u>Email</u>: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
+            {
+              connections.map((connection, index) =>(
+                <Contact 
+                key={index}
+                title={connection.title}
+                imageUrl={connection.imageUrl}
+                linkUrl={connection.linkUrl}
+                alt={connection.alt}
+                />
+              ))
+            }
+          </div>
         </div>
       </body>
   );
