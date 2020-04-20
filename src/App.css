@@ -202,10 +202,10 @@
 }
 
 .resume-btn{
-  height: 10vw;
+  height: 100px;
   width: 30vw;
-  margin-left: 18.5vw;
-  margin-right: 18.5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-top: 25vh;
   border-radius: 20px;
 }
@@ -232,8 +232,6 @@
   height: 50px;
   float:left;
   margin-left: 4vw;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
 }
 
 @media screen and (min-width: 2560px){
@@ -251,20 +249,16 @@
   .resume-btn p{
     font-size: 1.5em;
   }
-  .download{
-    margin-top: 4vh;
-    margin-bottom: 1vh;
-  }
 }
 
 @media screen and (max-width: 768px){
   .resume-btn{
     margin-top: 30vh;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    height: 21vw;
+    margin-right: 6vw;
   }
-
+  .resume-btn p{
+    font-size: 1.3em;
+  }
   .project-item{
     width:50vw;
   }
@@ -285,7 +279,11 @@
     width: 80vw;
   }
   .resume-btn p{
-    font-size: 1.8em;
+    font-size: 1.7em;
+    margin-top: 3vh;
+  }
+  .download{
+    margin-left: 10vw;
   }
   .contact h1{
     font-size: 10vw;
@@ -312,10 +310,7 @@
 }
 
 @media screen and (max-width: 460px) {
-  .resume-btn{
-    height: 30vw;
-  }
-  
+
   .portrait{
     width: 96vw;
     margin-right: 2vw;
@@ -337,10 +332,6 @@
 }
 
 @media screen and (max-width: 400px) {
-  .resume-btn{
-    height: 30vw;
-  }
-
   .portrait{
     height: 47vh;
   }

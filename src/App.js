@@ -86,8 +86,9 @@ function App() {
           <div className='button-container'>
           <a href="https://drive.google.com/file/d/1qj6HMYkNVumG-hJ9OvRsUn1UrzioAloO/view?usp=sharing">
             <button className="resume-btn">
+                <p>
                 <img src={download_icon} alt="Download" className="download"/>
-                <p>Download Resumé</p>
+                  Download Resumé</p>
             </button>
             </a>
           </div>
