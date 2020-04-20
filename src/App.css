@@ -336,6 +336,9 @@
   .portrait{
     height: 47vh;
   }
+  .resume-btn p{
+    margin-top: 2vh;
+  }
 }
 
 @media screen and (max-width: 320px) {
