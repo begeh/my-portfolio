@@ -300,8 +300,9 @@
   }
 
   .portrait{
-    width: 100vw;
-    margin-bottom: 30px;
+    width: 95vw;
+    margin-right: 2vw;
+    height: 70vh;
   }
 
   .summary{
@@ -327,6 +328,12 @@
   .overlay{
     width: 96vw;
     margin-left: 2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portrait{
+    height: 47vh;
   }
 }
 
