@@ -6,25 +6,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectItem from './components/ProjectItem';
 import Contact from './components/Contact';
 
+import skyline from './docs/skyline.jpg';
+import download_icon from './docs/download-icon.svg';
+
 import connections from './data/connections.json';
 import projects from './data/projects.json';
 
 function App() {
 
   const {x,y} = useScrollPosition();
-  if(y >= 255){
+  if(y >= 300){
     document.getElementById("nav").className = "fixed-navbar";
+  } else if (y && y < 300){
+    document.getElementById("nav").className = "navbar";
   }
-  
-  // if(y < 255 && document.getElementById("nav").className !== "navbar") {
-  //   document.getElementById("nav").className = "navbar";
-  // }
-
   return (
 
       <div className="body">
 
-        <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" className="img-responsive header-image" />
+        <img src={skyline} alt="Toronto" className="img-responsive header-image" />
         <h1 className="name"> BASHIR EGEH</h1>
         <div id="nav" className="navbar">
           <div>
@@ -86,9 +86,8 @@ function App() {
           <div className='button-container'>
           <a href="https://drive.google.com/file/d/1qj6HMYkNVumG-hJ9OvRsUn1UrzioAloO/view?usp=sharing">
             <button className="resume-btn">
-                <img src="https://lh3.googleusercontent.com/proxy/JXZR-Fs3-CZ2PZ-sn8sZ2LCHxcrQAbJDf68zS3WjjN8GB6KiAW8gSZfS-PR3BcSlGkUkBw1XFgW5FfcYlWF5UbO0O8gNYRiha23PhmtTaR7CPY3g5xlOTC8LtqdsSk47xr0Z5qwbXOaaNms4wxGpBKZs9LQQmXbK79M" alt="Upload" className="download"/>
+                <img src={download_icon} alt="Download" className="download"/>
                 <p>Download Resumé</p>
-              
             </button>
             </a>
           </div>

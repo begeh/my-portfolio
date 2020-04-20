@@ -13,6 +13,12 @@
   color: black;
 }
 
+.header-image {
+  display: block;
+  width: 100vw;
+  margin: auto;
+}
+
 .fixed-navbar{
   position: fixed;
   left: 0;
