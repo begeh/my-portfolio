@@ -1,4 +1,5 @@
 import React from 'react';
+import { useScrollPosition, useScrollXPosition, useScrollYPosition } from 'react-use-scroll-position';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,13 +11,22 @@ import projects from './data/projects.json';
 
 function App() {
 
+  const {x,y} = useScrollPosition();
+  if(y >= 255){
+    document.getElementById("nav").className = "fixed-navbar";
+  }
+  
+  // if(y < 255 && document.getElementById("nav").className !== "navbar") {
+  //   document.getElementById("nav").className = "navbar";
+  // }
+
   return (
 
       <div className="body">
 
         <img src="https://static.tumblr.com/ae070b84991083acd2ac020e7e5af357/lfdgcup/RR5mtptv9/tumblr_static_toronto_boy_header.jpg" alt="Toronto" className="img-responsive header-image" />
         <h1 className="name"> BASHIR EGEH</h1>
-        <div className="navbar">
+        <div id="nav" className="navbar">
           <div>
             <a href="#toabout" className="scroll-links">
               <h2 className="nav-item">
@@ -40,13 +50,15 @@ function App() {
           </div>
         </div>
         <div className="about-me">
-          <h2 className="about_title"><a name="toabout"></a> ABOUT ME</h2>
+          <a name="toabout"></a>
+          <h2 className="about_title">ABOUT ME</h2>
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQFgY9GdNy6D-w/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=9rkxhSAO0Oti0OCFyEbH_2kmGQQvSxlc1ozICu1Dz6g" alt="BashirPic" className= "portrait" align="right" />
             <p className="summary">  
               I'm a pharmacist-turned full-stack web developer based out of the Scarborough district of Toronto. I'm looking to diversify my skills and take on new challenges in the expanding field of computer programming and web development. I aim to learn as much and participate in as many projects as I can in order to improve my coding skills. One day, I hope to be involved in video game development and contribute to a medium that has had such a profound influence on my life.
             </p>
         </div>
-        <h2 className="project_title"><a name="toprojects"></a>PROJECTS </h2>
+        <a name="toprojects"></a>
+        <h2 className="project_title">PROJECTS </h2>
         <div className="project">
           {
             projects.map((project, index)=>(
@@ -56,7 +68,8 @@ function App() {
         </div>
         <div className="footer">
           <div className="contact">
-              <h1 className="contact-header"><a name="tocontact"></a>CONNECT</h1>
+              <a name="tocontact"></a>
+              <h1 className="contact-header">CONNECT</h1>
               <h2><u>Email</u>: <a className="link" href="mailto: b_egeh@hotmail.com">b_egeh@hotmail.com</a></h2>
               {
                 connections.map((connection, index) =>(

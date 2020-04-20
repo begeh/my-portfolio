@@ -13,12 +13,24 @@
   color: black;
 }
 
-.navbar{
-  display: flex;
-  /* position:fixed;
+.fixed-navbar{
+  position: fixed;
   left: 0;
   right: 0;
-  top: 0; */
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: silver;
+  z-index: 100;
+}
+
+.navbar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
   background-color: silver;
