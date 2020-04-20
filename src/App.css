@@ -232,6 +232,7 @@
   height: 50px;
   float:left;
   margin-left: 4vw;
+  margin-right: 1vw;
 }
 
 @media screen and (min-width: 2560px){
