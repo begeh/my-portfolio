@@ -302,7 +302,8 @@
   .portrait{
     width: 95vw;
     margin-right: 2vw;
-    height: 70vh;
+    height: 95vw;
+    margin-bottom: 2em;
   }
 
   .summary{
@@ -311,13 +312,7 @@
 }
 
 @media screen and (max-width: 460px) {
-
-  .portrait{
-    width: 96vw;
-    margin-right: 2vw;
-    height: 55vh;
-  }
-
+  
   .project-item{
     width: 100vw;
   }
@@ -333,17 +328,8 @@
 }
 
 @media screen and (max-width: 400px) {
-  .portrait{
-    height: 47vh;
-  }
   .resume-btn p{
     margin-top: 2vh;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .portrait{
-    height: 40vh;
   }
 }
 
