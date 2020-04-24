@@ -201,12 +201,17 @@
   text-decoration: none;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .resume-btn{
   height: 100px;
   width: 30vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 25vh;
   border-radius: 20px;
 }
 
