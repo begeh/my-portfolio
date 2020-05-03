@@ -320,12 +320,11 @@
 @media screen and (max-width: 460px) {
   
   .project-item{
-    width: 100vw;
+    width: 98.7vw;
   }
 
   .overlay{
-    width: 96vw;
-    margin-left: 2vw;
+    width: 94vw;
   }
 }
 
