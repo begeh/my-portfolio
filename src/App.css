@@ -127,7 +127,7 @@
   border-radius: 10%;
   margin-top: 50px;
   padding: 0 3% 0 3%;
-  width:30vw;
+  width:29.9vw;
   height: 228px;
 }
 
@@ -266,13 +266,14 @@
     font-size: 1.3em;
   }
   .project-item{
-    width:50vw;
+    width:48vw;
   }
   .project-container{
-    margin-left:0;
+    /* margin-left:0; */
+    margin: 0;
   }
   .overlay{
-    width: 48vw;
+    width: 45.5vw;
   }
 }
 
