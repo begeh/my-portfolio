@@ -13,24 +13,24 @@ import connections from './data/connections.json';
 import projects from './data/projects.json';
 
 function App() {
-  const toronto = useRef(null);
-  const title = useRef(null);
   const {x,y} = useScrollPosition();
-  if(y>0){
-    const height = title.current.clientHeight + toronto.current.clientHeight;
+  const imageHeader = useRef(null);
+  const nameHeader = useRef(null);
+  if(y > 0){
+    const headerHeight = nameHeader.current.clientHeight + imageHeader.current.clientHeight;
     
-    if(y >= height){
+    if(y >= headerHeight){
       document.getElementById("nav").className = "fixed-navbar";
-    } else if (y && y < height){
+    } else if (y && y < headerHeight){
       document.getElementById("nav").className = "navbar";
     }
-}
+  }
   return (
 
       <div className="body">
 
-        <img ref={toronto} src={skyline} alt="Toronto" className="img-responsive header-image" />
-        <h1 ref={title} className="name"> BASHIR EGEH</h1>
+        <img ref={imageHeader} src={skyline} alt="Toronto" className="img-responsive header-image" />
+        <h1 ref={nameHeader} className="name"> BASHIR EGEH</h1>
         <div id="nav" className="navbar">
           <div>
             <a href="#toabout" className="scroll-links">
