@@ -16,12 +16,17 @@ function App() {
   const {x,y} = useScrollPosition();
   const imageHeader = useRef(null);
   const nameHeader = useRef(null);
+  const nav = useRef(null);
+
   if(y > 0){
     const headerHeight = nameHeader.current.clientHeight + imageHeader.current.clientHeight;
-    
+    const navHeight = document.getElementById("nav").clientHeight;
+
     if(y >= headerHeight){
+      document.getElementById("navPlholder").style.height =  `${navHeight}px`;
       document.getElementById("nav").className = "fixed-navbar";
     } else if (y && y < headerHeight){
+      document.getElementById("navPlholder").style.height =  "0px";
       document.getElementById("nav").className = "navbar";
     }
   }
@@ -31,7 +36,8 @@ function App() {
 
         <img ref={imageHeader} src={skyline} alt="Toronto" className="img-responsive header-image" />
         <h1 ref={nameHeader} className="name"> BASHIR EGEH</h1>
-        <div id="nav" className="navbar">
+        <div id="navPlholder"></div>
+        <div ref={nav} id="nav" className="navbar">
           <div>
             <a href="#toabout" className="scroll-links">
               <h2 className="nav-item">
