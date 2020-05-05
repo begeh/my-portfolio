@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import { useScrollPosition, useScrollXPosition, useScrollYPosition } from 'react-use-scroll-position';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,19 +13,24 @@ import connections from './data/connections.json';
 import projects from './data/projects.json';
 
 function App() {
-
+  const toronto = useRef(null);
+  const title = useRef(null);
   const {x,y} = useScrollPosition();
-  if(y >= 300){
-    document.getElementById("nav").className = "fixed-navbar";
-  } else if (y && y < 300){
-    document.getElementById("nav").className = "navbar";
-  }
+  if(y>0){
+    const height = title.current.clientHeight + toronto.current.clientHeight;
+    
+    if(y >= height){
+      document.getElementById("nav").className = "fixed-navbar";
+    } else if (y && y < height){
+      document.getElementById("nav").className = "navbar";
+    }
+}
   return (
 
       <div className="body">
 
-        <img src={skyline} alt="Toronto" className="img-responsive header-image" />
-        <h1 className="name"> BASHIR EGEH</h1>
+        <img ref={toronto} src={skyline} alt="Toronto" className="img-responsive header-image" />
+        <h1 ref={title} className="name"> BASHIR EGEH</h1>
         <div id="nav" className="navbar">
           <div>
             <a href="#toabout" className="scroll-links">
