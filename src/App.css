@@ -296,7 +296,7 @@
   .contact h1{
     font-size: 10vw;
   }
-  .link{
+  .link, .contact h2{
     font-size: 8vw;
   }
 }
@@ -329,9 +329,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .resume-btn p{
-    margin-top: 2vh;
+    margin-top: 1.2vh;
   }
 }
 
