@@ -1,5 +1,11 @@
 ## My Portfolio Page (under development)
 
+A responsive, single-page portfolio site created entirely with custom-made CSS. Developed in order to practice CSS and HTML concepts such as flexbox and responsive design.
+
+Built in React.
+
+
+
 ### Available Scripts
 
 In the project directory, you can run:
