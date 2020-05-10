@@ -40,21 +40,21 @@ function App() {
         <div ref={nav} id="nav" className="navbar">
           <div>
             <a href="#toabout" className="scroll-links">
-              <h2 className="nav-item">
+              <h2 className="nav-item nav-shadow">
                 ABOUT
               </h2>
             </a>
           </div>
           <div>
             <a href="#toprojects" className="scroll-links">
-              <h2 className="nav-item">
+              <h2 className="nav-item nav-shadow">
                 PROJECTS
               </h2>
             </a>
           </div>
           <div>
             <a href="#tocontact" className="scroll-links">
-              <h2 className="nav-item">
+              <h2 className="nav-item nav-shadow">
                 CONTACT
               </h2>
             </a>
