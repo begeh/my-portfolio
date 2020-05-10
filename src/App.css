@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .body {
   background-color: grey;
@@ -6,7 +6,7 @@
   color: black;
   width: 100vw;
   height: 100%;
-  font-family: 'Domine', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .scroll-links {
@@ -228,7 +228,7 @@
 }
 
 .resume-btn p{
-  font-size: 1.8em;
+  font-size: 2vw;
   margin-top: 2vh;
   margin-bottom: 1vh;
 }
@@ -292,6 +292,7 @@
   }
   .download{
     margin-left: 10vw;
+    margin-bottom: 2em;
   }
   .contact h1{
     font-size: 10vw;
@@ -330,7 +331,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .resume-btn p{
+  .resume-btn p, .download{
     margin-top: 1.2vh;
   }
 }
