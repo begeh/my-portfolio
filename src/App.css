@@ -288,7 +288,7 @@
   }
   .resume-btn p{
     font-size: 1.7em;
-    margin-top: 3vh;
+    margin-top: 4vh;
   }
   .download{
     margin-left: 10vw;
@@ -330,7 +330,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 419px) {
   .resume-btn p, .download{
     margin-top: 1.2vh;
   }
