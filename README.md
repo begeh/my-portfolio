@@ -1,6 +1,6 @@
 ## Portfolio Page (under development)
 
-A responsive, single-page portfolio site created entirely with custom-made CSS. Developed as a means to practice CSS and HTML concepts such as flexbox and responsive web design.
+A responsive, single-page portfolio site created with custom-made CSS. Developed as a means to practice CSS and HTML concepts such as flexbox and responsive web design.
 
 Built in ReactJS.
 
